@@ -1,0 +1,19 @@
+README
+
+Facebook Painter is a Google Chrome extension which allows the user to change seamlessly change the color scheme of Facebook while browsing.
+
+First time users:
+1. In Google Chrome, click the dropdown menu and go to "more tools" --> "extensions."
+2. Click the "load unpacked extension" button and select the FacebookPainter folder.
+3. In Chrome, check the "enabled" box next to the Facebook Painter extension.
+
+Using Facebook Painter:
+1. Log into your Facebook account.
+2. Click on the red Facebook logo to the right of the Chrome search bar.
+3. Enter a color into the new popup window.
+4. Select one of the buttons to update your color scheme.
+5. To go to the original color scheme, select a button while the color field is blank.
+
+Technical Specs:
+1. Skills used: Chrome extensions, jQuery, JSX, JSON
+2. Special thanks: CIS 197 teaching staff
