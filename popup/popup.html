@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+      <title>Facebook Painter Popup</title>
+    <style>
+      body {
+        overflow-x: hidden;
+        width: 130px;
+      }
+
+      button {
+          margin: 5px;
+          height: 40px;
+          width: 120px;
+          background: blue;
+          color: white;
+      }
+
+      input {
+          width: 120px;
+          margin: 5px;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        height: 75px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="banner-painter"> PAINT BANNER </button>
+    <button id="background-painter"> PAINT BACKGROUND </button>
+    <button id="border-painter"> PAINT BORDERS </button>
+    <input id="colorBar" type="text" placeholder="type color here" />
+    <p><b>Directions:</b></p>
+    <p>Type any color from the following link. Then use the buttons to change the color scheme. A blank color field reverts to the original colors.</p>
+    <p><a href="http://www.w3schools.com/colors/colors_names.asp" target="blank">W3 Schools Color List</a></p>
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
